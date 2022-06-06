@@ -1,0 +1,92 @@
+* {box-sizing: border-box;
+	margin: 0;
+	padding: 0;}
+
+
+div.contenedor {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-top:50px;
+	margin-bottom: 50px;
+
+}
+div.caja {
+	width: 300px;
+	height: auto;
+	text-align: center;
+	box-shadow: 15px 15px 25px gray;
+	padding-bottom: 20px;
+}
+
+div.caja img {
+	width: 100%;
+	height: auto;
+}
+div.caja h2 {
+	font-family: arial;
+	
+}
+
+div.caja p {
+	font-family: arial;
+}
+
+div#container {
+	width: 100%;
+	height: auto;
+	background:url("fondo.png") center center;
+	padding-top: 150px;
+	padding-bottom: 150px;
+	
+}
+div#container h1 {
+		font-family: arial;
+		text-align: center;
+		color: white;
+
+}
+
+
+
+
+div#box {
+	width: 400px;
+	height: 142px;
+	background:url("logo.png");
+	margin: auto;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+h2.titulo-dos {
+	text-align: center;
+	font-family: arial;
+	font-size: 30pt;
+}
+
+div#desc {
+	width: 100%;
+	height: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 100px;
+}
+div#desc h2 {
+		font-family: arial;
+		text-align: center;
+		padding: 50px;
+
+}
+
+div#desc p {
+		font-family: arial;
+		text-align: center;
+		line-height: 30pt;
+	font-size: 20pt;	
+
+}
+
+
